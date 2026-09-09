@@ -19,7 +19,7 @@ PIR sensors are widely used in motion detection systems, security alarms, automa
 In this experiment, the PIR sensor is connected to an Arduino Uno board. The VCC pin of the sensor is connected to the 5V supply of the Arduino to power the sensor. The GND pin is connected to the Arduino’s ground. The OUT pin is connected to a digital input pin (pin 2 in this case) of the Arduino. The Arduino continuously monitors the state of the signal pin. If the signal pin goes HIGH, it means the sensor has detected motion, and the Arduino is programmed to turn ON the built-in LED on pin 13. If no motion is detected, the signal remains LOW, and the LED is turned OFF.
 Circuit Diagram:
  
-## Procedure: //Modify based on your circuit
+## Procedure: 
 
 Step 1: Set Up the Tinkercad Environment
 1.	Log in to Tinkercad: Open https://www.tinkercad.com in your browser and log in to your account.
